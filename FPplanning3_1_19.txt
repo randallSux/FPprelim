@@ -1,0 +1,21 @@
+Planning before you work is important in 99% of cases. This is one of them.
+
+Lets plan the structure of the Flamingo Protocol before we implement it. Contact me at randallssux@gmail.com if you have any questions or requests
+
+1)	Data Storage
+In this protocol, we will be managing all kinds of data. Right now, we can store them in one of two places, either on-chain, or off-chain within the storage node network. So let's list all data we can think of that needs to be stored, and where it will go, and details about how/why it will be stored that way.
+
+The list below contains abbreviations "ONC" for "on-chain" and "WNN" for "within node network"
+
+Data to be stored:	
+ONC - Social Media User Profiles (Profile pictures, bio, etc)
+ONC - User Metadata (post history, thread ownership)
+WNN - Social Media Posts (raw data of a social media post)
+WNN - Social Post MetaData (links to other posts, "likes", "reposts", etc)
+WNN - Social Post location data (the location(s) where a post is stored in a storage node, allowing for other nodes to look it up)
+ONC - Node activity data (how long a node has been "up for", as well as what it has done on the network) 
+ONC - Node identity data (what on-chain account a node is tied to)
+ONC - Node Reputation data (only thing I can think of now is history of whether node has passed/failed audits)
+WNN - Active Node list (this should go on each node, and should be a list of all active nodes known with thier addresses)
+
+
